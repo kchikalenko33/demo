@@ -10,13 +10,13 @@ public class AccountController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public void createAccount(@RequestBody String request) {
-        // TODO: реализация создания аккаунта
+        // реализация создания аккаунта
     }
 
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void closeAccount(@PathVariable Long id) {
-        // TODO: реализация закрытия аккаунта
+        // реализация закрытия аккаунта
     }
 
 
